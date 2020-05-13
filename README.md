@@ -1,14 +1,16 @@
-# machine_learning
-Machine Learning using Python
-
-
 ## Machine Learning Concepts
 
 ### Categories
 
-- Supervised - The Computer is presented with example inputs and their desired outputs, and the goal is to learn a general rule that maps inputs to outputs.
-- Unsupervised - No labels are given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself like discovering hidden patterns in data or feature engineering.
-- Reinforcement Learning - A computer program interacts with a dynamic environment in which it must perform a certain goal. Such as driving a vehicle or playing a game against an opponent. The program is provided with feedback in terms of rewards and punishments as it navigates its probem space.
+#### Supervised
+The Computer is presented with example inputs and their desired outputs, and the goal is to learn a general rule that maps inputs to outputs.
+
+#### Unsupervised
+No labels are given to the learning algorithm, leaving it on its own to find structure in its input. Unsupervised learning can be a goal in itself like discovering hidden patterns in data or feature engineering.
+
+#### Reinforcement Learning
+A computer program interacts with a dynamic environment in which it must perform a certain goal. Such as driving a vehicle or playing a game against an opponent. The program is provided with feedback in terms of rewards and punishments as it navigates its probem space.
+
 
 ### Types
 

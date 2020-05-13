@@ -2,7 +2,7 @@
 Machine Learning using Python
 
 
-Machine Learning Concepts
+## Machine Learning Concepts
 
 Categories - Supervised, Unsupervised, Reinforcement Learning
 

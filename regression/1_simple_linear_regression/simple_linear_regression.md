@@ -1,6 +1,7 @@
+### Simple Linear Regression Intuition & Code Explanation
 
-y = b0 + b1*x1
-where, y = Dependent Variable (DV) (Something which we are trying to explain)
+**y = b0 + b1*x1**
+>where, y = Dependent Variable (DV) (Something which we are trying to explain)
        b0 = Constant
        b1 = Co-efficient of DV
        x1 = Independent Variable (IV) (Sometimes IV may be direct cause of change in DV, sometimes it may be not)
@@ -11,10 +12,12 @@ salary_data.csv file consists of 30 employees years of experience & salary data
 - YearsExperience - Independent Variable
 - Salary - Dependent Variable
 
+```csv
 YearsExperience      Salary
 1.1                  39343
 1.3                  46205
 1.5                  37731
+```
 
 ```python
 # Importing the libraries

@@ -35,11 +35,14 @@ dataset = pd.read_csv('salary_data.csv')
 X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 ```
+- X - Independent Variable
+- y - Dependent Variable
 pandas read_csv() method is used to read the csv file  
 ```python
 iloc[:, :-1]
 ```  
-explanation of above syntax the left side of , is rows & right side of , is columns  
+**explanation of above syntax & intuition**    
+the left side of comma is rows & right side of comma is columns  
 1:3 means all the columns from index 1 to 2. Lower bound is ignored  
 :-1 means all the columns except the last one  
 ```python
@@ -47,3 +50,19 @@ explanation of above syntax the left side of , is rows & right side of , is colu
 from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size = 1/3, random_state = 0)
 ```
+**explanation of above syntax & intuition**  
+we split the data into **Training set** (on which Machine Learning model learns) & **Test set** (on which we test if Machine Learning model learned the correlation). There should not be much difference in performance.  
+**Machine Learning model is going to learn to do something (predict/other M/L goals) on the dataset by understanding some correlation when there is new dataset**  
+```python
+sklearn.model_selection.train_test_split(*arrays, **options)
+```
+Parameters  
+- *arrays - sequence of indexables with same length / shape[0]
+ - Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes
+- test_size - float or int, default=None
+- random_state - int or RandomState instance, default=None
+
+
+
+
+

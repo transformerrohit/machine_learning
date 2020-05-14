@@ -1,14 +1,14 @@
 ### Simple Linear Regression Intuition & Code Explanation
 
-**y = b0 + b1*x1**
-\where, y = Dependent Variable (DV) (Something which we are trying to explain)
-       b0 = Constant
-       b1 = Co-efficient of DV
-       x1 = Independent Variable (IV) (Sometimes IV may be direct cause of change in DV, sometimes it may be not)
-In Simple Linear Regression there is only one IV\
+**y = b0 + b1*x1**  
+where, y = Dependent Variable (DV) (Something which we are trying to explain)  
+       b0 = Constant  
+       b1 = Co-efficient of DV  
+       x1 = Independent Variable (IV) (Sometimes IV may be direct cause of change in DV, sometimes it may be not)  
+In Simple Linear Regression there is only one IV  
 
-**Data**
-salary_data.csv file consists of 30 employees years of experience & salary data
+**Data**  
+salary_data.csv file consists of 30 employees years of experience & salary data  
 - YearsExperience - Independent Variable
 - Salary - Dependent Variable
 

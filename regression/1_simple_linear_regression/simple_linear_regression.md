@@ -70,8 +70,11 @@ regressor = LinearRegression()
 regressor.fit(X_train, y_train)
 ```
 **explanation of above syntax & intuition**  
+we used LinearRegression class from sklearn.linear_model package and parameters are training data X_train & y_train  
 
-
-
-
-
+**Simple Linear Regressor is created and fitted to the Training set. So, if we want to compare it with Machine Learning then Machine is Simple Linear Regressor mode and Learning i steh fact that SLR machine learnt on Training set (X_train, y_train) to understand the correlation between Exerience & Salary to predict Salary.**  
+```python
+# Predicting the Test set results
+y_pred = regressor.predict(X_test)
+```
+now we try to predict salary on Test data based on learning from Train data  

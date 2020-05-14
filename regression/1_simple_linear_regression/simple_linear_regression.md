@@ -8,7 +8,6 @@ where, y = Dependent Variable (DV) (Something which we are trying to explain)
 In Simple Linear Regression there is only one IV 
 
 Data
-csv2md -p < salary_data.csv
 
 ```python
 # Importing the libraries

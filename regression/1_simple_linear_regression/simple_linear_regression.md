@@ -38,8 +38,10 @@ y = dataset.iloc[:, 1].values
 pandas read_csv() method is used to read the csv file  
 ```python
 iloc[:, :-1]
-``` means
-
+```  
+explanation of above syntax the left side of , is rows & right side of , is columns  
+1:3 means all the columns from index 1 to 2. Lower bound is ignored  
+:-1 means all the columns except the last one  
 ```python
 # Splitting the dataset into the Training set and Test set
 from sklearn.model_selection import train_test_split

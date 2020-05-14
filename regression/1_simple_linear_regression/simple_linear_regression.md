@@ -1,4 +1,3 @@
-### Simple Linear Regression Intuition & Code Explanation
 
 y = b0 + b1*x1
 where, y = Dependent Variable (DV) (Something which we are trying to explain)
@@ -7,7 +6,15 @@ where, y = Dependent Variable (DV) (Something which we are trying to explain)
        x1 = Independent Variable (IV) (Sometimes IV may be direct cause of change in DV, sometimes it may be not)
 In Simple Linear Regression there is only one IV 
 
-Data
+**Data**
+salary_data.csv file consists of 30 employees years of experience & salary data
+- YearsExperience - Independent Variable
+- Salary - Dependent Variable
+
+YearsExperience      Salary
+1.1                  39343
+1.3                  46205
+1.5                  37731
 
 ```python
 # Importing the libraries
@@ -26,4 +33,3 @@ X = dataset.iloc[:, :-1].values
 y = dataset.iloc[:, 1].values
 ```
 pandas read_csv() method is used to read the csv file
-salary_data.csv file consists of 30 employees years of experience & salary data

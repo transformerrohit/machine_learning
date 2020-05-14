@@ -15,9 +15,9 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 ```
-numpy - mathematical tool to include any type of mathematics. Also used to make arrays, only allowed input for Neural Network.
-matplotlib.pyplot - plot charts to visualize the results
-pandas - best library to import/manage datasets
+-numpy - mathematical tool to include any type of mathematics. Also used to make arrays, only allowed input for Neural Network.
+-matplotlib.pyplot - plot charts to visualize the results
+-pandas - best library to import/manage datasets
 
 ```python
 # Importing the dataset

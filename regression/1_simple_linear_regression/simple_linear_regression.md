@@ -58,7 +58,7 @@ sklearn.model_selection.train_test_split(*arrays, **options)
 ```
 Parameters  
 - *arrays - sequence of indexables with same length / shape[0]
- - Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes
+  - Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes
 - test_size - float or int, default=None
 - random_state - int or RandomState instance, default=None
 

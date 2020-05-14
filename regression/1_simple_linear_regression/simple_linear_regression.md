@@ -56,13 +56,20 @@ we split the data into **Training set** (on which Machine Learning model learns)
 ```python
 sklearn.model_selection.train_test_split(*arrays, **options)
 ```
-Parameters  
+**Parameters**  
 - *arrays - sequence of indexables with same length / shape[0]
   - Allowed inputs are lists, numpy arrays, scipy-sparse matrices or pandas dataframes
 - test_size - float or int, default=None
   - If float, should be between 0.0 and 1.0 and represent the proportion of the dataset to include in the test split. If int, represents the absolute number of test samples. If None, the value is set to the complement of the train size. If train_size is also None, it will be set to 0.25.
 - random_state - int or RandomState instance, default=None
   - Controls the shuffling applied to the data before applying the split. Pass an int for reproducible output across multiple function calls.
+```python
+# Fitting Simple Linear Regression to the Training set
+from sklearn.linear_model import LinearRegression
+regressor = LinearRegression()
+regressor.fit(X_train, y_train)
+```
+**explanation of above syntax & intuition**  
 
 
 

@@ -7,6 +7,9 @@ where, y = Dependent Variable (DV) (Something which we are trying to explain)
        x1 = Independent Variable (IV) (Sometimes IV may be direct cause of change in DV, sometimes it may be not)  
 In Simple Linear Regression there is only one IV  
 
+**Problem Statement**
+We have experience & salary details for 30 employees and we need to predict salary based on experience.
+
 **Data**  
 salary_data.csv file consists of 30 employees years of experience & salary data  
 - YearsExperience - Independent Variable

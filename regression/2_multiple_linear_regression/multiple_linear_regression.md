@@ -1,6 +1,6 @@
 ### Multiple Linear Regression Intuition & Code Explanation
 
-**y = b0 + b1*x1 + b2*x2 + b3*x3 + ... +bn*xn**  
+**y = b0 + b1*x1 + b2*x2 + b3*x3 + ... + bn*xn**  
 where, y = Dependent Variable (DV) (Something which we are trying to explain)  
        b0 = Constant  
        b1, b2, b3, ..., bn = Co-efficient of DV  

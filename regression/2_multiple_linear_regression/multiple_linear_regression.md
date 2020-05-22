@@ -21,3 +21,13 @@ R&D Spend     Administration      Marketing Spend     State         Profit
 162597.7      151377.59           443898.53           California    191792.06
 153441.51     101145.55           407934.54           Florida       191050.39
 ```
+
+```python
+# Importing the libraries
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+```
+- numpy - mathematical tool to include any type of mathematics. Also used to make arrays, only allowed input for Neural Network.
+- matplotlib.pyplot - plot charts to visualize the results
+- pandas - best library to import/manage datasets
